@@ -1,0 +1,3 @@
+﻿  2.2_NumberPermutation.c
+C:\Users\Han\Desktop\Dev\DSPractice\2.2_NumberPermutation.c(13,79): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DSPractice.vcxproj -> C:\Users\Han\Desktop\Dev\DSPractice\x64\Debug\DSPractice.exe
