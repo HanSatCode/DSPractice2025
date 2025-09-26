@@ -19,6 +19,12 @@
     <Filter Include="Resource Files\Practice01">
       <UniqueIdentifier>{275316d5-7849-4c78-8a21-c9c32148bdd3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Practice_TextBook">
+      <UniqueIdentifier>{c0641730-9e08-4230-8aa4-2b69828d4b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Practice03">
+      <UniqueIdentifier>{72b021f1-c2ba-4654-b57b-05b299aaa09b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -42,5 +48,19 @@
     <ClCompile Include="Practice02\2.3_NumberPermutationWithTimer.c">
       <Filter>Resource Files\Practice02</Filter>
     </ClCompile>
+    <ClCompile Include="Practice_TextBook\1.3_3.c">
+      <Filter>Resource Files\Practice_TextBook</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice03\3.1_Struct.c">
+      <Filter>Resource Files\Practice03</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice03\3.2_Add.c">
+      <Filter>Resource Files\Practice03</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3.1_Struct.c">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

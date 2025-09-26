@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Han\\Desktop\\DSPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.1_Struct.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice03\\3.1_Struct.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.2_Add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice03\\3.2_Add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "3.2_Add.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.2_Add.c",
+              "RelativeDocumentMoniker": "Practice03\\3.2_Add.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.2_Add.c",
+              "RelativeToolTip": "Practice03\\3.2_Add.c",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-26T05:13:17.648Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "3.1_Struct.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.1_Struct.c",
+              "RelativeDocumentMoniker": "Practice03\\3.1_Struct.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.1_Struct.c",
+              "RelativeToolTip": "Practice03\\3.1_Struct.c",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAvwEoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-26T04:06:20.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
