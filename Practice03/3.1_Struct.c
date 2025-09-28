@@ -9,8 +9,6 @@ typedef struct {
 } polynomial;
 
 int main(void) {
-	// 정렬 자체는 지수를 내림차순으로 넣으면 됨 (내림차순 정렬 구현 안해도됨)
-	// 방법 1만 해도 괜찮음.
 	polynomial* A = (polynomial*)malloc(10 * sizeof(polynomial));
 	polynomial* B = (polynomial*)malloc(10 * sizeof(polynomial));
 	polynomial* D = (polynomial*)malloc(10 * sizeof(polynomial));

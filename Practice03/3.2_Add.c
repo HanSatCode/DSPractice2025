@@ -3,43 +3,40 @@
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 #define COMPARE(x, y) (((x) < (y)) ? -1 : ((x) == (y)) ? 0 : 1)
 
-int tempCoef, tempExpon; int sizeA = 0; int sizeB = 0; int M = 0; // 전역변수
+int tempCoef, tempExpon; int sizeA = 0; int sizeB = 0; // 전역 변수
+int avail = 0;
 
 typedef struct {
 	float coef; // 계수 (실수)
 	int expon; // 차수 (양의 정수)
 } polynomial;
+polynomial* result; // 전역 변수로 선언
 
-
-void attach(float confficient, int exponent) {
-	/* 새로운 항을 다항식에 추가한다. */
-	if (avail >= MAX_TERMS) {
-		fprintf(stderr, "다항식에 항이 너무 많습니다.");
-		exit(1);
-	}
-	D[avail].coef = confficient;
-	D[avail++].expon = exponent;
+void attach(float confficient, int exponent) { /* 새로운 항을 다항식에 추가한다. */
+	result[avail].coef = confficient;
+	result[avail++].expon = exponent;
 }
 
 polynomial* padd(polynomial* A, polynomial* B) { /* A(x)와 B(x)를 더하여 새 D(x)를 생성 */
 	float coefficient;
-	int startA = 0, startB = 0;
-	int finishA = sizeA - 1, finishB = sizeB - 1;
+	int startA = 0, startB = 0; int finishA = sizeA - 1, finishB = sizeB - 1;
+
+	result = (polynomial*)malloc((sizeA + sizeB) * sizeof(polynomial)); // 항의 갯수는 많아봤자 A + B
 
 	while (startA <= finishA && startB <= finishB) {
 		switch (COMPARE(A[startA].expon, B[startB].expon)) {
 		case -1: /* a의 차수가 b의 차수보다 작은 경우*/
-			attach(B[startA].expon, B[startA].coef);
+			attach(B[startB].coef, B[startB].expon);
 			startB++;
 			break;
 		case 0: /* 차수가 같은 경우 */
 			coefficient = A[startA].coef + B[startB].coef;
-			if (coefficient) attach(A[startA].expon, coefficient); // 계수가 0이 아니면
+			if (coefficient) attach(coefficient, A[startA].expon); // 계수가 0이 아니면
 			startA++;
 			startB++;
 			break;
 		case 1:  /* a의 차수가 b의 차수보다 큰 경우*/
-			attach(A[startA].coef, B[startA].expon);
+			attach(A[startA].coef, A[startA].expon);
 			startA++;
 		}
 	}
@@ -47,15 +44,13 @@ polynomial* padd(polynomial* A, polynomial* B) { /* A(x)와 B(x)를 더하여 새 D(x)
 		attach(A[startA].coef, A[startA].expon);
 	for (; startB <= finishB; startB++) // B(x)의 남은 항들을 D(x)에 첨가
 		attach(B[startB].coef, B[startB].expon);
-	*finishD = avail - 1;
+	return result;
 }
 
 int main(void) {
 	// 정렬 자체는 지수를 내림차순으로 넣으면 됨 (내림차순 정렬 구현 안해도됨)
-	// 방법 1만 해도 괜찮음.
 	polynomial* A = (polynomial*)malloc(10 * sizeof(polynomial));
 	polynomial* B = (polynomial*)malloc(10 * sizeof(polynomial));
-	polynomial* D = (polynomial*)malloc(10 * sizeof(polynomial));
 
 	while (1) {
 		printf("[%d번째] A(x)의 계수와 차수를 순서대로 입력하세요. (종료는 -1 -1) : ", sizeA + 1);
@@ -77,24 +72,10 @@ int main(void) {
 		sizeB++;
 	}
 
-	M = MAX(sizeA, sizeB);
-	if (M > 10) realloc(D, M * sizeof(polynomial)); // 10개 초과시 메모리 재할당
+	polynomial* D = padd(A, B);
 
-	printf("[A(x)]\tcoef\texpon\n");
-	for (int i = 0; i < 10; i++) {
-		if (A[i].expon == -1) break;
-		printf("\t%.2f\t%d\n", A[i].coef, A[i].expon);
-	}
-
-	printf("[B(x)]\tcoef\texpon\n");
-	for (int i = 0; i < 10; i++) {
-		if (B[i].expon == -1) break;
-		printf("\t%.2f\t%d\n", B[i].coef, B[i].expon);
-	}
-
-	D = padd(A, B);
 	printf("[D(x)]\tcoef\texpon\n");
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < avail; i++) {
 		if (D[i].expon == -1) break;
 		printf("\t%.2f\t%d\n", D[i].coef, D[i].expon);
 	}

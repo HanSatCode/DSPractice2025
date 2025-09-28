@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Han\\Desktop\\DSPractice\\",
+  "WorkspaceRootPath": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.2_Add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.3_Mul.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice03\\3.3_Mul.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\3_StructAddMul.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:3_StructAddMul.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.2_Add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice03\\3.2_Add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.1_Struct.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.1_Struct.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice03\\3.1_Struct.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -18,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "3.1_Struct.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.1_Struct.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.1_Struct.c",
               "RelativeDocumentMoniker": "Practice03\\3.1_Struct.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.1_Struct.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.1_Struct.c",
               "RelativeToolTip": "Practice03\\3.1_Struct.c",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-26T04:06:20.731Z",
               "IsPinned": true,
@@ -36,16 +44,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "3.2_Add.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.2_Add.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.2_Add.c",
               "RelativeDocumentMoniker": "Practice03\\3.2_Add.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice03\\3.2_Add.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.2_Add.c",
               "RelativeToolTip": "Practice03\\3.2_Add.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAE8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-26T05:13:17.648Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "3.3_Mul.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.3_Mul.c",
+              "RelativeDocumentMoniker": "Practice03\\3.3_Mul.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3.3_Mul.c",
+              "RelativeToolTip": "Practice03\\3.3_Mul.c",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-27T23:46:26.276Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "3_StructAddMul.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\3_StructAddMul.c",
+              "RelativeDocumentMoniker": "3_StructAddMul.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\3_StructAddMul.c",
+              "RelativeToolTip": "3_StructAddMul.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-28T03:27:28.798Z",
               "EditorCaption": ""
             }
           ]

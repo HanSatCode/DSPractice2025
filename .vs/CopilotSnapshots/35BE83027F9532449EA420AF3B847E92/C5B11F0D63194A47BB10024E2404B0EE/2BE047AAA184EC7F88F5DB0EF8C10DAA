@@ -1,0 +1,171 @@
+﻿#include <stdio.h>
+#include <stdlib.h>
+#define MAX(x, y) (((x) > (y)) ? (x) : (y))
+#define COMPARE(x, y) (((x) < (y)) ? -1 : ((x) == (y)) ? 0 : 1)
+
+int tempCoef, tempExpon; int sizeA = 0; int sizeB = 0; // 전역 변수
+
+typedef struct {
+	float coef; // 계수 (실수)
+	int expon; // 차수 (양의 정수)
+} polynomial;
+
+// 다항식의 길이를 세는 함수 (종료 표식 -1 활용)
+int count_terms(polynomial* p) {
+	if (!p) return 0;
+	int count = 0;
+	while (p[count].expon != -1) {
+		count++;
+	}
+	return count;
+}
+
+// 다항식을 출력하는 함수
+void print_poly(const char* name, polynomial* p) {
+	if (!p) {
+		printf("%s is NULL\n", name);
+		return;
+	}
+	printf("%s = ", name);
+	int term_count = count_terms(p);
+	if (term_count == 0) {
+		printf("0\n");
+		return;
+	}
+	for (int i = 0; i < term_count; i++) {
+		if (i > 0 && p[i].coef > 0) {
+			printf(" + ");
+		}
+		else if (i > 0 && p[i].coef < 0) {
+			printf(" - ");
+		}
+		else if (p[i].coef < 0) {
+			printf("-");
+		}
+
+		if (p[i].expon == 0) {
+			printf("%.2f", p[i].coef < 0 ? -p[i].coef : p[i].coef);
+		}
+		else {
+			printf("%.2fx^%d", p[i].coef < 0 ? -p[i].coef : p[i].coef, p[i].expon);
+		}
+	}
+	printf("\n");
+}
+
+// 두 다항식을 더하는 함수 (전역 변수 대신 길이를 직접 계산)
+polynomial* padd(polynomial* A, polynomial* B) {
+	int lenA = count_terms(A);
+	int lenB = count_terms(B);
+	polynomial* D = (polynomial*)malloc((lenA + lenB + 1) * sizeof(polynomial));
+
+	int startA = 0, startB = 0, avail = 0;
+	float coefficient;
+
+	while (startA < lenA && startB < lenB) {
+		switch (COMPARE(A[startA].expon, B[startB].expon)) {
+		case -1:
+			D[avail++] = B[startB++];
+			break;
+		case 0:
+			coefficient = A[startA].coef + B[startB].coef;
+			if (coefficient) {
+				D[avail].coef = coefficient;
+				D[avail++].expon = A[startA].expon;
+			}
+			startA++; startB++;
+			break;
+		case 1:
+			D[avail++] = A[startA++];
+			break;
+		}
+	}
+	while (startA < lenA) D[avail++] = A[startA++];
+	while (startB < lenB) D[avail++] = B[startB++];
+	
+	D[avail].expon = -1; // 종료 표식
+	return D;
+}
+
+// 다항식 A와 단일 항 Bi를 곱하는 함수
+polynomial* single_mul(polynomial* A, polynomial Bi) {
+	int lenA = count_terms(A);
+	polynomial* Ci = (polynomial*)malloc((lenA + 1) * sizeof(polynomial));
+
+	for (int i = 0; i < lenA; i++) {
+		Ci[i].coef = A[i].coef * Bi.coef;
+		Ci[i].expon = A[i].expon + Bi.expon;
+	}
+	Ci[lenA].expon = -1; // 종료 표식
+	return Ci;
+}
+
+// 두 다항식을 곱하는 함수
+polynomial* pmul(polynomial* A, polynomial* B) {
+	polynomial* D = (polynomial*)malloc(sizeof(polynomial));
+	D[0].expon = -1; // 비어있는 다항식으로 초기화
+
+	int lenA = count_terms(A);
+	for (int i = 0; i < lenA; i++) {
+		polynomial* Ci = single_mul(B, A[i]);
+		polynomial* oldD = D;
+		D = padd(D, Ci); // 이전 D와 Ci를 더해 새로운 D를 만듦
+		free(oldD); // 이전 D 메모리 해제
+		free(Ci);   // Ci 메모리 해제
+	}
+	return D;
+}
+
+int main(void) {
+	int capA = 10, capB = 10;
+	polynomial* A = (polynomial*)malloc(capA * sizeof(polynomial));
+	polynomial* B = (polynomial*)malloc(capB * sizeof(polynomial));
+
+	while (1) {
+		printf("[%d번째] A(x)의 계수와 차수를 순서대로 입력하세요. (종료는 -1 -1) : ", sizeA + 1);
+		scanf("%d %d", &tempCoef, &tempExpon);
+		if (tempCoef == -1 && tempExpon == -1) break;
+		if (sizeA >= capA - 1) {
+			capA *= 2;
+			A = (polynomial*)realloc(A, capA * sizeof(polynomial));
+		}
+		A[sizeA].coef = (float)tempCoef;
+		A[sizeA].expon = tempExpon;
+		sizeA++;
+	}
+	A[sizeA].expon = -1; // A의 종료 표식
+
+	while (1) {
+		printf("[%d번째] B(x)의 계수와 차수를 순서대로 입력하세요. (종료는 -1 -1) : ", sizeB + 1);
+		scanf("%d %d", &tempCoef, &tempExpon);
+		if (tempCoef == -1 && tempExpon == -1) break;
+		if (sizeB >= capB - 1) {
+			capB *= 2;
+			B = (polynomial*)realloc(B, capB * sizeof(polynomial));
+		}
+		B[sizeB].coef = (float)tempCoef;
+		B[sizeB].expon = tempExpon;
+		sizeB++;
+	}
+	B[sizeB].expon = -1; // B의 종료 표식
+
+	printf("\n--- 입력된 다항식 ---\n");
+	print_poly("A(x)", A);
+	print_poly("B(x)", B);
+
+	polynomial* D_add = padd(A, B);
+	printf("\n--- 덧셈 결과 ---\n");
+	print_poly("D(x) = A(x) + B(x)", D_add);
+
+	polynomial* D_mul = pmul(A, B);
+	printf("\n--- 곱셈 결과 ---\n");
+	print_poly("D(x) = A(x) * B(x)", D_mul);
+
+	// 메모리 해제
+	free(A);
+	free(B);
+	free(D_add);
+	free(D_mul);
+
+	return 0;
+}

@@ -57,6 +57,12 @@
     <ClCompile Include="Practice03\3.2_Add.c">
       <Filter>Resource Files\Practice03</Filter>
     </ClCompile>
+    <ClCompile Include="Practice03\3.3_Mul.c">
+      <Filter>Resource Files\Practice03</Filter>
+    </ClCompile>
+    <ClCompile Include="3_StructAddMul.c">
+      <Filter>Resource Files\Practice03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="3.1_Struct.c">
