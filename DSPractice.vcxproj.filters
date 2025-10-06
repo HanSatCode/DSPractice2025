@@ -25,6 +25,12 @@
     <Filter Include="Resource Files\Practice03">
       <UniqueIdentifier>{72b021f1-c2ba-4654-b57b-05b299aaa09b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\TextBook">
+      <UniqueIdentifier>{f1cfcaab-4abf-49a4-b952-24609b9cb90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBook\Ch01">
+      <UniqueIdentifier>{8755117e-71f9-4ca3-9337-e0a88042a413}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -60,13 +66,20 @@
     <ClCompile Include="Practice03\3.3_Mul.c">
       <Filter>Resource Files\Practice03</Filter>
     </ClCompile>
-    <ClCompile Include="3_StructAddMul.c">
+    <ClCompile Include="Practice03\3_StructAddMul.c">
       <Filter>Resource Files\Practice03</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="3.1_Struct.c">
-      <Filter>Source Files</Filter>
-    </None>
+    <ClCompile Include="TextBook\Ch01\1_SelectionSorting.c">
+      <Filter>Resource Files\TextBook\Ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBook\Ch01\2_BinarySearch.c">
+      <Filter>Resource Files\TextBook\Ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBook\Ch01\3_BinarySearchRecursive.c">
+      <Filter>Resource Files\TextBook\Ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBook\Ch01\4_Permutations.c">
+      <Filter>Resource Files\TextBook\Ch01</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -4,7 +4,7 @@
 #define COMPARE(x, y) (((x) < (y)) ? -1 : ((x) == (y)) ? 0 : 1)
 
 int tempCoef, tempExpon; int sizeA = 0; int sizeB = 0; // 전역 변수
-int resultCnt = 0; int tempCnt = 0; int mulCnt = 0;
+int resultAvail = 0; int tempAvail = 0; int mulCnt = 0;
 
 typedef struct {
 	float coef; // 계수 (실수)
@@ -14,17 +14,17 @@ polynomial* result; // 전역 변수로 선언 (리턴할 값)
 polynomial* temp; // 전역 변수로 선언 (임시 저장소)
 
 void attach(float confficient, int exponent) { /* 새로운 항을 다항식에 추가한다. */
-	temp[tempCnt].coef = confficient;
-	temp[tempCnt++].expon = exponent;
-	resultCnt++;
+	temp[tempAvail].coef = confficient;
+	temp[tempAvail++].expon = exponent;
+	resultAvail++;
 }
 
 polynomial* padd(polynomial* A, polynomial* B) { /* A(x)와 B(x)를 더하여 새 D(x)를 생성 */
 	float coefficient;
-	int startA = 0, startB = 0; int finishA = resultCnt - 1, finishB = sizeB - 1;
+	int startA = 0, startB = 0; int finishA = resultAvail - 1, finishB = sizeB - 1;
 
 	temp = (polynomial*)malloc((sizeA + sizeB) * sizeof(polynomial));
-	tempCnt = 0; resultCnt = 0;
+	tempAvail = 0; resultAvail = 0;
 
 	while (startA <= finishA && startB <= finishB) {
 		switch (COMPARE(A[startA].expon, B[startB].expon)) {
@@ -43,7 +43,7 @@ polynomial* padd(polynomial* A, polynomial* B) { /* A(x)와 B(x)를 더하여 새 D(x)
 		}
 	}
 
-	for (; startA <= finishA; startA++) {
+	for (; startA <= finishA; startA++) { // A(x)의 남은 항들을 D(x)에 첨가
 		attach(A[startA].coef, A[startA].expon);
 	}
 	for (; startB <= finishB; startB++) { // B(x)의 남은 항들을 D(x)에 첨가
@@ -80,7 +80,7 @@ polynomial* pmul(polynomial* A, polynomial* B) {
 }
 
 int main(void) {
-	// 정렬 자체는 지수를 내림차순으로 넣으면 됨 (내림차순 정렬 구현 안해도됨)
+	// 정렬 자체는 지수를 내림차순으로 넣으면 된다고 하심. (내림차순 정렬 구현 안해도 됨)
 	polynomial* A = (polynomial*)malloc(10 * sizeof(polynomial));
 	polynomial* B = (polynomial*)malloc(10 * sizeof(polynomial));
 
@@ -115,21 +115,21 @@ int main(void) {
 	}
 
 	printf("\n[3.2 다항식의 덧셈]\n");
-	resultCnt = sizeA; // resultCnt 초기화
+	resultAvail = sizeA; // resultAvail 초기화
 	polynomial* D = padd(A, B);
 
 	printf("[D(x)]\tcoef\texpon\n");
-	for (int i = 0; i < resultCnt; i++) {
+	for (int i = 0; i < resultAvail; i++) {
 		printf("\t%.2f\t%d\n", D[i].coef, D[i].expon);
 	}
-	resultCnt = 0;
+	resultAvail = 0;
 
 
 	printf("\n[3.3 다항식의 곱셈]\n");
 	D = pmul(A, B);
 
 	printf("[D(x)]\tcoef\texpon\n");
-	for (int i = 0; i < resultCnt; i++) {
+	for (int i = 0; i < resultAvail; i++) {
 		printf("\t%.2f\t%d\n", D[i].coef, D[i].expon);
 	}
 }
