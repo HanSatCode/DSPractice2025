@@ -34,6 +34,9 @@
     <Filter Include="Resource Files\TextBook\Ch02">
       <UniqueIdentifier>{ec40c24e-2f7f-4795-852a-569321acb09e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Practice04">
+      <UniqueIdentifier>{2b247bb3-84ab-4189-b0f1-7735751b40c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -95,6 +98,15 @@
     </ClCompile>
     <ClCompile Include="TextBook\Ch02\4_EnhancedFastTranspose.c">
       <Filter>Resource Files\TextBook\Ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\1_Stack.c">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\3_CircleQueue.c">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\2_Queue.c">
+      <Filter>Resource Files\Practice04</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
