@@ -108,5 +108,23 @@
     <ClCompile Include="Practice04\2_Queue.c">
       <Filter>Resource Files\Practice04</Filter>
     </ClCompile>
+    <ClCompile Include="Practice04\4_EnhancedStack.c">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\5_EnhancedQueue.c">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\6_EnhancedCircleQueue.c">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\7_StackCLS.cpp">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\8_QueueCLS.cpp">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice04\9_CircleQueueCLS.cpp">
+      <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

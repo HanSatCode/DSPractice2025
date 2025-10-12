@@ -5,23 +5,23 @@ int stack[MAX_SIZE];
 int top = -1;
 
 void push(int item) {
-	if (top == MAX_SIZE -1) {
+	if (top == MAX_SIZE - 1) { // 마지막 인덱스는 MAX_SIZE - 1이기 때문
 		printf("[실패] 스택이 이미 가득찼습니다...\n");
 		return;
 	}
-	stack[++top] = item;
+	stack[++top] = item; // top을 먼저 증가시키고 그 위치에 item 삽입
 }
 int pop() {
-	if (top == -1) {
+	if (top == -1) { // top이 -1이면 스택이 비어있는 상태
 		printf("[실패] 스택이 이미 비워져있습니다...\n");
 		return -1;
 	}
-	return stack[top--];
+	return stack[top--]; // top 위치의 item 반환 후 top 감소
 }
 
 void printStack() {
 	printf("index\t:\titem\n");
-	if (top == -1) {
+	if (top == -1) { // 스택이 비어있는 경우
 		printf("(스택이 비어있습니다!!)\n");
 		return;
 	}
@@ -36,8 +36,7 @@ int main(void) {
 		scanf("%d", &choice);
 		if (choice == 1) {	// 삽입
 			int item;
-			printf("삽입할 원소 : ");
-			scanf("%d", &item);
+			printf("삽입할 원소 : "); scanf("%d", &item);
 			push(item);
 			printStack();
 		}

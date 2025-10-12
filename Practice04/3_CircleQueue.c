@@ -61,9 +61,3 @@ int main(void) {
 		printf("\n");
 	}
 }
-
-
-
-
-// 모듈러 연산을 하고... ADD하면 REAR을 증가하고, DELETE하면 FORNT를 증가시키는 방식
-// front rear은 웬만하면 마지막 인덱스가 좋다.
