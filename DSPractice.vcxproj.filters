@@ -37,6 +37,9 @@
     <Filter Include="Resource Files\Practice04">
       <UniqueIdentifier>{2b247bb3-84ab-4189-b0f1-7735751b40c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\HomeWork">
+      <UniqueIdentifier>{cd5a2d0b-8e46-46ff-a61f-9cfa36057361}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -125,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="Practice04\9_CircleQueueCLS.cpp">
       <Filter>Resource Files\Practice04</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingSort.c">
+      <Filter>Resource Files\HomeWork</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

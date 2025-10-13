@@ -30,7 +30,7 @@ void enhancedFastTranspose(term a[], term b[]) {
 			int count = rowTerms[i];
 			rowTerms[i] = pos;
 			pos = pos + count;
-		}2
+		}
 
 		for (int i = 1; i <= numTerms; i++) {
 			int j = rowTerms[a[i].col]++;
