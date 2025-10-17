@@ -19,9 +19,6 @@
     <Filter Include="Resource Files\Practice01">
       <UniqueIdentifier>{275316d5-7849-4c78-8a21-c9c32148bdd3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Practice_TextBook">
-      <UniqueIdentifier>{c0641730-9e08-4230-8aa4-2b69828d4b6d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\Practice03">
       <UniqueIdentifier>{72b021f1-c2ba-4654-b57b-05b299aaa09b}</UniqueIdentifier>
     </Filter>
@@ -39,6 +36,9 @@
     </Filter>
     <Filter Include="Resource Files\HomeWork">
       <UniqueIdentifier>{cd5a2d0b-8e46-46ff-a61f-9cfa36057361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Practice05">
+      <UniqueIdentifier>{7a6140bf-ced5-4160-9f26-a87f2b1e161e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -62,9 +62,6 @@
     </ClCompile>
     <ClCompile Include="Practice02\2.3_NumberPermutationWithTimer.c">
       <Filter>Resource Files\Practice02</Filter>
-    </ClCompile>
-    <ClCompile Include="Practice_TextBook\1.3_3.c">
-      <Filter>Resource Files\Practice_TextBook</Filter>
     </ClCompile>
     <ClCompile Include="Practice03\3.1_Struct.c">
       <Filter>Resource Files\Practice03</Filter>
@@ -129,7 +126,13 @@
     <ClCompile Include="Practice04\9_CircleQueueCLS.cpp">
       <Filter>Resource Files\Practice04</Filter>
     </ClCompile>
-    <ClCompile Include="CountingSort.c">
+    <ClCompile Include="TextBook\Ch02\5_Mmult.c">
+      <Filter>Resource Files\TextBook\Ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice05\eval.cpp">
+      <Filter>Resource Files\Practice05</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork\CountingSort.c">
       <Filter>Resource Files\HomeWork</Filter>
     </ClCompile>
   </ItemGroup>

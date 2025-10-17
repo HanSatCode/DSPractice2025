@@ -1,58 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Han\\Desktop\\DSPractice\\",
+  "WorkspaceRootPath": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\CountingSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:CountingSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice05\\eval.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\2_SparseMatrix.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:TextBook\\Ch02\\2_SparseMatrix.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\3_FastTranspose.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:TextBook\\Ch02\\3_FastTranspose.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\4_EnhancedFastTranspose.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:TextBook\\Ch02\\4_EnhancedFastTranspose.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\8_QueueCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\8_QueueCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\6_EnhancedCircleQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\6_EnhancedCircleQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\5_EnhancedQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\5_EnhancedQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\4_EnhancedStack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\4_EnhancedStack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\7_StackCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice04\\7_StackCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\7_StackCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\9_CircleQueueCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\9_CircleQueueCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\3_CircleQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\3_CircleQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\1_Stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\1_Stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\2_Queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\2_Queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,173 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "1_Stack.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\1_Stack.c",
-              "RelativeDocumentMoniker": "Practice04\\1_Stack.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\1_Stack.c",
-              "RelativeToolTip": "Practice04\\1_Stack.c",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-10T03:56:01.039Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "2_Queue.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\2_Queue.c",
-              "RelativeDocumentMoniker": "Practice04\\2_Queue.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\2_Queue.c",
-              "RelativeToolTip": "Practice04\\2_Queue.c",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowDUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-10T04:43:38.744Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "3_CircleQueue.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\3_CircleQueue.c",
-              "RelativeDocumentMoniker": "Practice04\\3_CircleQueue.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\3_CircleQueue.c",
-              "RelativeToolTip": "Practice04\\3_CircleQueue.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-10T04:41:16.449Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "4_EnhancedStack.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\4_EnhancedStack.c",
-              "RelativeDocumentMoniker": "Practice04\\4_EnhancedStack.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\4_EnhancedStack.c",
-              "RelativeToolTip": "Practice04\\4_EnhancedStack.c",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-11T13:41:23.076Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "5_EnhancedQueue.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\5_EnhancedQueue.c",
-              "RelativeDocumentMoniker": "Practice04\\5_EnhancedQueue.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\5_EnhancedQueue.c",
-              "RelativeToolTip": "Practice04\\5_EnhancedQueue.c",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-11T14:04:43.578Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "6_EnhancedCircleQueue.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\6_EnhancedCircleQueue.c",
-              "RelativeDocumentMoniker": "Practice04\\6_EnhancedCircleQueue.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\6_EnhancedCircleQueue.c",
-              "RelativeToolTip": "Practice04\\6_EnhancedCircleQueue.c",
-              "ViewState": "AgIAACoAAAAAAAAAAAAcwEwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-11T14:27:23.363Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "7_StackCLS.cpp",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\7_StackCLS.cpp",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice04\\7_StackCLS.cpp",
               "RelativeDocumentMoniker": "Practice04\\7_StackCLS.cpp",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\7_StackCLS.cpp",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice04\\7_StackCLS.cpp",
               "RelativeToolTip": "Practice04\\7_StackCLS.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-11T14:27:25.76Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "8_QueueCLS.cpp",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\8_QueueCLS.cpp",
-              "RelativeDocumentMoniker": "Practice04\\8_QueueCLS.cpp",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\8_QueueCLS.cpp",
-              "RelativeToolTip": "Practice04\\8_QueueCLS.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-11T17:29:36.091Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "9_CircleQueueCLS.cpp",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\9_CircleQueueCLS.cpp",
-              "RelativeDocumentMoniker": "Practice04\\9_CircleQueueCLS.cpp",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\Practice04\\9_CircleQueueCLS.cpp",
-              "RelativeToolTip": "Practice04\\9_CircleQueueCLS.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-11T17:29:36.8Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CountingSort.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\CountingSort.c",
-              "RelativeDocumentMoniker": "CountingSort.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\CountingSort.c",
-              "RelativeToolTip": "CountingSort.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-13T12:33:26.238Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "3_FastTranspose.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\3_FastTranspose.c",
-              "RelativeDocumentMoniker": "TextBook\\Ch02\\3_FastTranspose.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\3_FastTranspose.c",
-              "RelativeToolTip": "TextBook\\Ch02\\3_FastTranspose.c",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-13T13:21:46.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "2_SparseMatrix.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\2_SparseMatrix.c",
-              "RelativeDocumentMoniker": "TextBook\\Ch02\\2_SparseMatrix.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\2_SparseMatrix.c",
-              "RelativeToolTip": "TextBook\\Ch02\\2_SparseMatrix.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-13T13:44:58.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "4_EnhancedFastTranspose.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\4_EnhancedFastTranspose.c",
-              "RelativeDocumentMoniker": "TextBook\\Ch02\\4_EnhancedFastTranspose.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\DSPractice\\TextBook\\Ch02\\4_EnhancedFastTranspose.c",
-              "RelativeToolTip": "TextBook\\Ch02\\4_EnhancedFastTranspose.c",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-13T13:21:45.914Z"
+              "DocumentIndex": 0,
+              "Title": "eval.cpp",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp",
+              "RelativeDocumentMoniker": "Practice05\\eval.cpp",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp",
+              "RelativeToolTip": "Practice05\\eval.cpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAywG4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-17T15:27:02.826Z",
+              "EditorCaption": ""
             }
           ]
         }
