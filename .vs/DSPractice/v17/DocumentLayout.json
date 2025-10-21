@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\HomeWork\\CountingSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:HomeWork\\CountingSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice01\\1.1_SelectSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice01\\1.1_SelectSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice05\\eval.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice04\\7_StackCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice04\\7_StackCLS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\postfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:postfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "7_StackCLS.cpp",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice04\\7_StackCLS.cpp",
-              "RelativeDocumentMoniker": "Practice04\\7_StackCLS.cpp",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice04\\7_StackCLS.cpp",
-              "RelativeToolTip": "Practice04\\7_StackCLS.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-11T14:27:25.76Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CountingSort.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\HomeWork\\CountingSort.c",
-              "RelativeDocumentMoniker": "HomeWork\\CountingSort.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\HomeWork\\CountingSort.c",
-              "RelativeToolTip": "HomeWork\\CountingSort.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-17T17:04:54.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "1.1_SelectSort.c",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice01\\1.1_SelectSort.c",
-              "RelativeDocumentMoniker": "Practice01\\1.1_SelectSort.c",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice01\\1.1_SelectSort.c",
-              "RelativeToolTip": "Practice01\\1.1_SelectSort.c",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-17T17:02:55.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "eval.cpp",
               "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp",
               "RelativeDocumentMoniker": "Practice05\\eval.cpp",
               "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp",
               "RelativeToolTip": "Practice05\\eval.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAywG4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-17T15:27:02.826Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "postfix.cpp",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\postfix.cpp",
+              "RelativeDocumentMoniker": "postfix.cpp",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\postfix.cpp",
+              "RelativeToolTip": "postfix.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T16:02:12.843Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T17:01:09.591Z",
               "EditorCaption": ""
             }
           ]

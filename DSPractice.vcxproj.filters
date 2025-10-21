@@ -135,5 +135,11 @@
     <ClCompile Include="HomeWork\CountingSort.c">
       <Filter>Resource Files\HomeWork</Filter>
     </ClCompile>
+    <ClCompile Include="postfix.cpp">
+      <Filter>Resource Files\Practice05</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\Practice05</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
