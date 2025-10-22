@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice00\\2_Ackermann_Recursion.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice00\\2_Ackermann_Recursion.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice05\\eval.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice00\\1_Boolean.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice00\\1_Boolean.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\postfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:postfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3_StructAddMul.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A948C27-722A-4BFE-AAB3-8CE0EB68E3FE}|DSPractice.vcxproj|solutionrelative:Practice03\\3_StructAddMul.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2_Ackermann_Recursion.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice00\\2_Ackermann_Recursion.c",
+              "RelativeDocumentMoniker": "Practice00\\2_Ackermann_Recursion.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice00\\2_Ackermann_Recursion.c",
+              "RelativeToolTip": "Practice00\\2_Ackermann_Recursion.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-22T15:00:37.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "eval.cpp",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp",
-              "RelativeDocumentMoniker": "Practice05\\eval.cpp",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice05\\eval.cpp",
-              "RelativeToolTip": "Practice05\\eval.cpp",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-17T15:27:02.826Z",
-              "IsPinned": true,
+              "Title": "1_Boolean.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice00\\1_Boolean.c",
+              "RelativeDocumentMoniker": "Practice00\\1_Boolean.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice00\\1_Boolean.c",
+              "RelativeToolTip": "Practice00\\1_Boolean.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-22T15:00:31.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "postfix.cpp",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\postfix.cpp",
-              "RelativeDocumentMoniker": "postfix.cpp",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\postfix.cpp",
-              "RelativeToolTip": "postfix.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-18T16:02:12.843Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-18T17:01:09.591Z",
+              "Title": "3_StructAddMul.c",
+              "DocumentMoniker": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3_StructAddMul.c",
+              "RelativeDocumentMoniker": "Practice03\\3_StructAddMul.c",
+              "ToolTip": "C:\\Users\\Han\\Desktop\\Dev\\Repo\\DSPractice\\Practice03\\3_StructAddMul.c",
+              "RelativeToolTip": "Practice03\\3_StructAddMul.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-22T14:44:00.619Z",
               "EditorCaption": ""
             }
           ]

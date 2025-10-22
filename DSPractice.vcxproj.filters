@@ -40,6 +40,9 @@
     <Filter Include="Resource Files\Practice05">
       <UniqueIdentifier>{7a6140bf-ced5-4160-9f26-a87f2b1e161e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Practice00">
+      <UniqueIdentifier>{da863a9c-9a59-478c-a2c8-ac3335946430}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -135,11 +138,20 @@
     <ClCompile Include="HomeWork\CountingSort.c">
       <Filter>Resource Files\HomeWork</Filter>
     </ClCompile>
-    <ClCompile Include="postfix.cpp">
+    <ClCompile Include="Practice05\main.cpp">
       <Filter>Resource Files\Practice05</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Practice05\postfix.cpp">
       <Filter>Resource Files\Practice05</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice00\1_Boolean.c">
+      <Filter>Resource Files\Practice00</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice00\2_Ackermann_Recursion.c">
+      <Filter>Resource Files\Practice00</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice00\3_Powerset.c">
+      <Filter>Resource Files\Practice00</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
