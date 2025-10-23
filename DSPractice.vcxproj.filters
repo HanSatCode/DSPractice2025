@@ -153,5 +153,8 @@
     <ClCompile Include="Practice00\3_Powerset.c">
       <Filter>Resource Files\Practice00</Filter>
     </ClCompile>
+    <ClCompile Include="Practice03\3_StructAddMul_New.c">
+      <Filter>Resource Files\Practice03</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
