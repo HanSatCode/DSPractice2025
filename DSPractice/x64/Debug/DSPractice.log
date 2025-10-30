@@ -1,1 +1,6 @@
-﻿
+﻿  Question01.c
+C:\Users\Han\Desktop\DSPractice\MidTerm\Question01.c(76,11): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Han\Desktop\DSPractice\MidTerm\Question01.c(96,117): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Han\Desktop\DSPractice\MidTerm\Question01.c(111,117): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Han\Desktop\DSPractice\MidTerm\Question01.c(139,20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DSPractice.vcxproj -> C:\Users\Han\Desktop\DSPractice\x64\Debug\DSPractice.exe
