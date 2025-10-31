@@ -46,6 +46,9 @@
     <Filter Include="Resource Files\MidTerm">
       <UniqueIdentifier>{6ee44c89-7223-44b3-b7e2-a850205ddb89}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Practice06">
+      <UniqueIdentifier>{63289419-41a6-41b8-be9d-2737c76730ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -164,6 +167,15 @@
     </ClCompile>
     <ClCompile Include="MidTerm\Question02.cpp">
       <Filter>Resource Files\MidTerm</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice06\1_LinkedList.c">
+      <Filter>Resource Files\Practice06</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice06\2_Stack.c">
+      <Filter>Resource Files\Practice06</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice06\3_Queue.c">
+      <Filter>Resource Files\Practice06</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
