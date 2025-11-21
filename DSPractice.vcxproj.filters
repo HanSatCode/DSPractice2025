@@ -49,6 +49,15 @@
     <Filter Include="Resource Files\Practice06">
       <UniqueIdentifier>{63289419-41a6-41b8-be9d-2737c76730ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Practice07">
+      <UniqueIdentifier>{6d81484d-de35-458e-bc7a-3c0da7c6e3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Practice12">
+      <UniqueIdentifier>{a434f3b8-c525-46bb-baca-c3fd473c128b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Practice08">
+      <UniqueIdentifier>{6a7c5e2c-1ee4-445d-bcbd-358ec9bb4ca8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -176,6 +185,24 @@
     </ClCompile>
     <ClCompile Include="Practice06\3_Queue.c">
       <Filter>Resource Files\Practice06</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice07\polyNode.c">
+      <Filter>Resource Files\Practice07</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Sort.c">
+      <Filter>Resource Files\Practice12</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice12\2_AscendedSort.c">
+      <Filter>Resource Files\Practice12</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice12\3_DescendedSort.c">
+      <Filter>Resource Files\Practice12</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice08\Tree.c">
+      <Filter>Resource Files\Practice08</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork\LinkedListSelectionSort.c">
+      <Filter>Resource Files\HomeWork</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
