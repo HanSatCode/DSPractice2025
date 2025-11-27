@@ -204,5 +204,8 @@
     <ClCompile Include="HomeWork\LinkedListSelectionSort.c">
       <Filter>Resource Files\HomeWork</Filter>
     </ClCompile>
+    <ClCompile Include="HomeWork\BinaryTree.c">
+      <Filter>Resource Files\HomeWork</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

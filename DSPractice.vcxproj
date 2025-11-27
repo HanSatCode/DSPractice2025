@@ -22,6 +22,7 @@
     <ClCompile Include="1_Sort.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="HomeWork\BinaryTree.c" />
     <ClCompile Include="HomeWork\CountingSort.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
