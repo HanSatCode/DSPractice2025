@@ -58,6 +58,9 @@
     <Filter Include="Resource Files\Practice08">
       <UniqueIdentifier>{6a7c5e2c-1ee4-445d-bcbd-358ec9bb4ca8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Practice09">
+      <UniqueIdentifier>{4328e8b9-40b9-405f-8746-ee9e9bd5a74c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -206,6 +209,9 @@
     </ClCompile>
     <ClCompile Include="HomeWork\BinaryTree.c">
       <Filter>Resource Files\HomeWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice09\Solve.c">
+      <Filter>Resource Files\Practice09</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
