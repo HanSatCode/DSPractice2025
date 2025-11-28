@@ -133,7 +133,7 @@
     <ClCompile Include="Practice08\Tree.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Practice09\Solve.c" />
+    <ClCompile Include="Practice09\BinarySearchTree.c" />
     <ClCompile Include="Practice12\2_AscendedSort.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

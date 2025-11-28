@@ -210,7 +210,7 @@
     <ClCompile Include="HomeWork\BinaryTree.c">
       <Filter>Resource Files\HomeWork</Filter>
     </ClCompile>
-    <ClCompile Include="Practice09\Solve.c">
+    <ClCompile Include="Practice09\BinarySearchTree.c">
       <Filter>Resource Files\Practice09</Filter>
     </ClCompile>
   </ItemGroup>
