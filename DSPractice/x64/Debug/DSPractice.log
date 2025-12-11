@@ -1,14 +1,1 @@
-﻿  BinarySearchTree.c
-C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(32,33): warning C4047: 'function': 'treePointer' differs in levels of indirection from 'treePointer *'
-C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(32,33): warning C4024: 'insert': different types for formal and actual parameter 1
-C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(40,66): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(47,56): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(69,26): warning C4028: formal parameter 1 different from declaration
-C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(97,10): warning C4473: 'printf' : not enough arguments passed for format string
-      C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(97,10):
-      placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-      C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(97,10):
-      the missing variadic argument 1 is required by format string '%d'
-  
-C:\Users\Han\Desktop\Dev\Repo\DSPractice\Practice09\BinarySearchTree.c(114,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  DSPractice.vcxproj -> C:\Users\Han\Desktop\Dev\Repo\DSPractice\x64\Debug\DSPractice.exe
+﻿  DSPractice.vcxproj -> C:\Users\Han\Desktop\Dev\Repo\DSPractice\x64\Debug\DSPractice.exe

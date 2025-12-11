@@ -61,6 +61,12 @@
     <Filter Include="Resource Files\Practice09">
       <UniqueIdentifier>{4328e8b9-40b9-405f-8746-ee9e9bd5a74c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Practice11">
+      <UniqueIdentifier>{d911669a-fa27-4a31-b5c5-33771238f4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Practice10">
+      <UniqueIdentifier>{f18b599e-c7a0-4d8d-83b9-1ad8b9dc9536}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Practice01\1.1_SelectSort.c">
@@ -212,6 +218,15 @@
     </ClCompile>
     <ClCompile Include="Practice09\BinarySearchTree.c">
       <Filter>Resource Files\Practice09</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice10\Graph.c">
+      <Filter>Resource Files\Practice10</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork\MCST.c">
+      <Filter>Resource Files\HomeWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice11\Dijkstra.c">
+      <Filter>Resource Files\Practice11</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
