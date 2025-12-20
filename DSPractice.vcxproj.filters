@@ -22,15 +22,6 @@
     <Filter Include="Resource Files\Practice03">
       <UniqueIdentifier>{72b021f1-c2ba-4654-b57b-05b299aaa09b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\TextBook">
-      <UniqueIdentifier>{f1cfcaab-4abf-49a4-b952-24609b9cb90c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\TextBook\Ch01">
-      <UniqueIdentifier>{8755117e-71f9-4ca3-9337-e0a88042a413}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\TextBook\Ch02">
-      <UniqueIdentifier>{ec40c24e-2f7f-4795-852a-569321acb09e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files\Practice04">
       <UniqueIdentifier>{2b247bb3-84ab-4189-b0f1-7735751b40c4}</UniqueIdentifier>
     </Filter>
@@ -42,9 +33,6 @@
     </Filter>
     <Filter Include="Resource Files\Practice00">
       <UniqueIdentifier>{da863a9c-9a59-478c-a2c8-ac3335946430}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\MidTerm">
-      <UniqueIdentifier>{6ee44c89-7223-44b3-b7e2-a850205ddb89}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\Practice06">
       <UniqueIdentifier>{63289419-41a6-41b8-be9d-2737c76730ed}</UniqueIdentifier>
@@ -66,6 +54,9 @@
     </Filter>
     <Filter Include="Resource Files\Practice10">
       <UniqueIdentifier>{f18b599e-c7a0-4d8d-83b9-1ad8b9dc9536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Test">
+      <UniqueIdentifier>{6ee44c89-7223-44b3-b7e2-a850205ddb89}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -102,30 +93,6 @@
     <ClCompile Include="Practice03\3_StructAddMul.c">
       <Filter>Resource Files\Practice03</Filter>
     </ClCompile>
-    <ClCompile Include="TextBook\Ch01\1_SelectionSorting.c">
-      <Filter>Resource Files\TextBook\Ch01</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBook\Ch01\2_BinarySearch.c">
-      <Filter>Resource Files\TextBook\Ch01</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBook\Ch01\3_BinarySearchRecursive.c">
-      <Filter>Resource Files\TextBook\Ch01</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBook\Ch01\4_Permutations.c">
-      <Filter>Resource Files\TextBook\Ch01</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBook\Ch02\1_Padd.c">
-      <Filter>Resource Files\TextBook\Ch02</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBook\Ch02\2_SparseMatrix.c">
-      <Filter>Resource Files\TextBook\Ch02</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBook\Ch02\3_FastTranspose.c">
-      <Filter>Resource Files\TextBook\Ch02</Filter>
-    </ClCompile>
-    <ClCompile Include="TextBook\Ch02\4_EnhancedFastTranspose.c">
-      <Filter>Resource Files\TextBook\Ch02</Filter>
-    </ClCompile>
     <ClCompile Include="Practice04\1_Stack.c">
       <Filter>Resource Files\Practice04</Filter>
     </ClCompile>
@@ -153,9 +120,6 @@
     <ClCompile Include="Practice04\9_CircleQueueCLS.cpp">
       <Filter>Resource Files\Practice04</Filter>
     </ClCompile>
-    <ClCompile Include="TextBook\Ch02\5_Mmult.c">
-      <Filter>Resource Files\TextBook\Ch02</Filter>
-    </ClCompile>
     <ClCompile Include="Practice05\eval.cpp">
       <Filter>Resource Files\Practice05</Filter>
     </ClCompile>
@@ -181,10 +145,10 @@
       <Filter>Resource Files\Practice03</Filter>
     </ClCompile>
     <ClCompile Include="MidTerm\Question01.c">
-      <Filter>Resource Files\MidTerm</Filter>
+      <Filter>Resource Files\Test</Filter>
     </ClCompile>
     <ClCompile Include="MidTerm\Question02.cpp">
-      <Filter>Resource Files\MidTerm</Filter>
+      <Filter>Resource Files\Test</Filter>
     </ClCompile>
     <ClCompile Include="Practice06\1_LinkedList.c">
       <Filter>Resource Files\Practice06</Filter>
@@ -227,6 +191,9 @@
     </ClCompile>
     <ClCompile Include="Practice11\Dijkstra.c">
       <Filter>Resource Files\Practice11</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\Q2.c">
+      <Filter>Resource Files\Test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
